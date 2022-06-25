@@ -1,0 +1,51 @@
+Start download data
+WARNING: timestamping does nothing in combination with -O. See the manual
+for details.
+
+--2022-06-25 14:50:19--  https://climate.weather.gc.ca/climate_data/bulk_data_e.html?format=csv&stationID=48549&Year=2020&Month=2&Day=14&timeframe=1&submit=%20Download+Data
+Resolving climate.weather.gc.ca (climate.weather.gc.ca)... 205.189.10.46
+Connecting to climate.weather.gc.ca (climate.weather.gc.ca)|205.189.10.46|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [application/force-download]
+Saving to: ‘/Users/muratkahraman/mainfolder/input/2020.csv’
+
+     0K .......... .......... .......... .......... ..........  649K
+    50K .......... .......... .......... .......... .......... 1.17M
+   100K .......... .......... .......                           774K=0.2s
+
+2022-06-25 14:50:21 (826 KB/s) - ‘/Users/muratkahraman/mainfolder/input/2020.csv’ saved [130712]
+
+WARNING: timestamping does nothing in combination with -O. See the manual
+for details.
+
+--2022-06-25 14:50:21--  https://climate.weather.gc.ca/climate_data/bulk_data_e.html?format=csv&stationID=48549&Year=2021&Month=2&Day=14&timeframe=1&submit=%20Download+Data
+Resolving climate.weather.gc.ca (climate.weather.gc.ca)... 205.189.10.46
+Connecting to climate.weather.gc.ca (climate.weather.gc.ca)|205.189.10.46|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [application/force-download]
+Saving to: ‘/Users/muratkahraman/mainfolder/input/2021.csv’
+
+     0K .......... .......... .......... .......... ..........  262K
+    50K .......... .......... .......... .......... ..........  421K
+   100K .......... .......... ...                               623K=0.3s
+
+2022-06-25 14:50:22 (356 KB/s) - ‘/Users/muratkahraman/mainfolder/input/2021.csv’ saved [126714]
+
+WARNING: timestamping does nothing in combination with -O. See the manual
+for details.
+
+--2022-06-25 14:50:22--  https://climate.weather.gc.ca/climate_data/bulk_data_e.html?format=csv&stationID=48549&Year=2022&Month=2&Day=14&timeframe=1&submit=%20Download+Data
+Resolving climate.weather.gc.ca (climate.weather.gc.ca)... 205.189.10.46
+Connecting to climate.weather.gc.ca (climate.weather.gc.ca)|205.189.10.46|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [application/force-download]
+Saving to: ‘/Users/muratkahraman/mainfolder/input/2022.csv’
+
+     0K .......... .......... .......... .......... ..........  662K
+    50K .......... .......... .......... .......... .......... 1.21M
+   100K .......... .......... ...                              30.8M=0.1s
+
+2022-06-25 14:50:24 (1.03 MB/s) - ‘/Users/muratkahraman/mainfolder/input/2022.csv’ saved [126636]
+
+Start to run Python Script
+PROGRAM SUCCEEDED
